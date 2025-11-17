@@ -1,0 +1,18 @@
+{
+  "name": "flaky-chaos-repo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Intentionally unstable repo designed to stress-test AI coding agents",
+  "scripts": {
+    "test": "jest --runInBand"
+  },
+  "dependencies": {
+    "left-pad": "^1.3.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "@babel/preset-env": "^7.20.0",
+    "babel-jest": "^29.0.0"
+  }
+}
+
