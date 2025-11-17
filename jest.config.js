@@ -1,6 +1,7 @@
 export default {
   testEnvironment: "node",
   maxConcurrency: 1,
-  transform: {}
+  transform: {},
+  testMatch: ['**/tests/**/*.test.js']
 };
 
